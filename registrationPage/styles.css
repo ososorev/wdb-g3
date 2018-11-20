@@ -1,0 +1,140 @@
+header {
+    position: absolute;
+    width: 1200px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+
+    background: #38A055;
+}
+#subscription {
+    position: absolute;
+    width: 73px;
+    height: 17px;
+    left: 869px;
+    top: 6px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+
+    color: #FFFFFF;
+}
+#twitterIcon {
+    position: absolute;
+    width: 15.75px;
+    height: 14px;
+    left: 948px;
+    top: 8px;
+
+    background: transparent;
+}
+#youtubeIcon {
+    position: absolute;
+    width: 12.44px;
+    height: 14px;
+    left: 990px;
+    top: 8px;
+    
+    background: transparent;
+}
+#facebookIcon {
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    left: 1029px;
+    top: 8px;
+    
+    background: transparent;
+}
+#navRegistration {
+position: absolute;
+width: 1200px;
+height: 60px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 3px 4px rgba(94, 99, 102, 0.15);
+
+}
+#logo {
+    position: absolute;
+    width: 167px;
+    height: 36px;
+    left: 129px;
+    top: 12px;
+    
+    background: transparent;
+}
+#goToLogin {
+    position: absolute;
+    width: 227px;
+    height: 20px;
+    left: 871px;
+    top: 20px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+
+    color: #1F2836;
+}
+#contentPage {
+    position: absolute;
+    width: 1200px;
+    height: 750px;
+    left: 0px;
+    top: 30px;
+
+    background: #F4F4F5;
+    box-shadow: 0px 3px 4px rgba(94, 99, 102, 0.15);
+}
+#createProfileForm {
+    position: absolute;
+    width: 558px;
+    height: 580px;
+    left: 309px;
+    top: 75px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+#titleRegistration {
+    position: absolute;
+    left: 152px;
+    right: 152px;
+    top: 30px;
+    bottom: 517px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+
+    color: #4C4C4C;
+}
+
+
+#nameUserField {
+    position: absolute;
+    border-style: none;
+    width: 124px;
+    height: 22px;
+    left: 149px;
+    right: 285px;
+    top: 125px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+
+    color: #A4A6A9;
+}
