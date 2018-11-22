@@ -1,0 +1,85 @@
+body{
+  background-color: #F4F4F5;
+}
+
+.topsocial{
+  background-color: #38A055;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 0 0 0;
+  text-align: right;
+}
+.topsocial a{
+  padding: 0;
+  margin-left: 10px;
+}
+
+.topmenu{
+  width: 100%;
+  height:60px;
+  box-shadow: 0px 3px 4px rgba(94, 99, 102, 0.15);
+}
+.mainlogo{
+  padding-top: 12px;
+}
+
+.loginform{
+  width: 558px;
+  height: auto;
+  background: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+  position: fixed; top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 34px 148px 22px 148px;
+  font-size: 12px;
+  font-style: normal;
+
+}
+.loginform h1{
+  font-size: 24px;
+  text-align: center;
+  color: #4C4C4C;
+  margin-bottom: 10px;
+}
+ .form-group input{
+  border:0;
+  padding: 5px;
+  margin: 8px 0;
+  width:100%;
+  box-shadow: 0 1px 0 0 #A4A6A9;
+  color: #A4A6A9;
+  font-size: 16px !important;
+}
+button{
+  background-color: #40B661;
+  width: 100%;
+  color: #fff;
+  border: 0;
+  border-radius: 4px !important;
+  padding: 10px;
+  font-size: 16px !important;
+}
+.forgot{
+  margin: 30px 0;
+
+
+}
+.checkpassword{
+  float: left;
+}
+.rempassword{
+  float: right;
+}
+.registration{
+  border-top: 1px solid #E8E9E9;
+  clear: both;
+  text-align: center;
+  padding: 20px 0 0 0;
+  margin-top: 30px !important;
+}
