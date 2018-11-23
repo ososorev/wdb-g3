@@ -1,65 +1,17 @@
 <html>
     <head>
-        <!DOCTYPE html>
-        <meta charset="utf-8">
-        
-        <title>Регистрация</title>
 
-        <link href="styles.css" rel="stylesheet">
     </head>
-    <body link="#38A055">
-        <header>
-            <div id="subscription">Подпишись!</div>
-            <div id="twitterIcon">
-                <img src="img/twitter.svg">
-            </div>
-                </div>
-            <div id="youtubeIcon">
-                <img src="img/youtube.svg">
-                </div>
-            <div id="facebookIcon">
-                <img src="img/facebook.svg">  
-            </div>
-            <section id="contentPage">
-                    <div id="navRegistration">
-                        <div id="logo">
-                            <img src="img/logo.svg">
-                        </div>
-                        <div id="goToLogin">Уже зарегистрированы? <a href="URL">Войдите</a></div>
-                    </div>
-                    <form id="createProfileForm">
-                        <h1 id="titleRegistration">Заполните профиль</h1>
-                        <input id="nameUser" placeholder="Имя и Фамилия">
-                        <hr>
-                        <input id="phoneNumber" type="tel" pattern="+7-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                        placeholder="Номер телефона">
-                        <hr>
-                        <input id="email" type="email" placeholder="E-mail">
-                        <hr>
-                        <input id="pass" type="password" placeholder="Пароль">
-                        <hr>
-                        <input id="confirmPass" type="password" placeholder="Еще раз пароль">
-                        <hr>
-                        <input type="checkbox" id="regulations" onclick="check();"/> 
-                            Я внимательно прочитал(-а) <a href="URL">Правила сайта</a> <br>
-                            и полностью согласен(-а) с ними
-                        <input type="checkbox" id="politics" onclick="check();" /> 
-                            Я прочитал <a href="URL">Политику конфиденциальности</a>,<br>
-                            согласен с ней и даю согласие на обработку<br>
-                            своих персональных данных
-                        <input type="submit" name="submit" class="submit" disabled="" value="Создать аккаунт" />
-                    </form>
-                    <script>
-                        function check() {
-                        var submit = document.getElementsByName('submit')[0];
-                        if (document.getElementById('regulations').checked && document.getElementById('politics').checked)
-                        submit.disabled = '';
-                        else
-                        submit.disabled = 'disabled';
-                        }
-                    </script>
-            </section>
-        </header>
+    <body>
+        <script type="text/javascript">
+            let header = document.createElement("header");
+            header.id = header;
+            document.body.append(header);
 
+            let subscribe = document.createElement("div");
+            subscribe.id = subscribe;
+            subscribe.textContent = "Подпишись!";
+            document.body.append(subscribe);
+        </script>
     </body>
 </html>
