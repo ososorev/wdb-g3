@@ -5,15 +5,44 @@
     <body>
         <script type="text/javascript">
             let header = document.createElement("header");
-            header.id = header;
+            header.classList.add("header");
             document.body.append(header);
 
-            let subscribe = document.createElement("div");
-            subscribe.id = subscribe;
-            subscribe.textContent = "Подпишись!";
-            document.body.append(subscribe);
+                let subscribe = document.createElement("div");
+                subscribe.classList.add("subscribe");
+                subscribe.append(document.createTextNode("Подпишись!"));
+                header.appendChild(subscribe);
 
-            let 
-        </script>
+                let twitterIcon = document.createElement("div");
+                twitterIcon.classList.add("twitterIcon");
+                twitterIcon.src="img/tvitter.svg";
+                header.appendChild(twitterIcon);
+
+                let youtubeIcon = document.createElement("div");
+                youtubeIcon.classList.add("youtubeIcon");
+                youtubeIcon.src="img/youtube.svg";
+                header.appendChild(youtubeIcon);
+
+                let facebookIcon = document.createElement("div");
+                facebookIcon.classList.add("facebookIcon");
+                facebookIcon.src="img/facebook.svg";
+                header.appendChild(facebookIcon);
+
+            let navBar = document.createElement("nav");
+            navBar.classList.add("navBar");
+            document.body.append(navBar);
+
+                let logo = document.createElement("div");
+                logo.classList.add("logo");
+                logo.src="img/logo.svg";
+                navBar.appendChild(logo);
+
+            let registrationForm = document.createElement("form");
+            registrationForm.classList.add("registrationForm");
+            
+
+
+
+        </script>                
     </body>
 </html>
