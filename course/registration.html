@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Вход в систему</title>
+    <title>Регистрация</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -25,39 +25,41 @@
           <div class="mainlogo">
             <img src="images/Citroniumlogo.png" alt="">
           </div>
-
+          <div class="loginquestion">
+            <p>Уже зарегистрированы?
+            <span><a href="index.html">Войдите</a></span></p>
+          </div>
 
         </div>
       </div>
     </header>
     <div class="container">
-    <form class="loginform" action="" method="post">
-      <h1>Войдите в систему</h1>
+    <form class="regform" action="" method="post">
+      <h1>Заполните профиль</h1>
+      <div class="form-group">
+        <input type="text" name="" value="" placeholder="Имя и фамилия">
+      </div>
       <div class="form-group">
         <input type="tel" name="" value="" placeholder="Номер телефона">
       </div>
       <div class="form-group">
+        <input type="text" name="" value="" placeholder="E-mail">
+      </div>
+      <div class="form-group">
         <input type="password" name="" value="" placeholder="Пароль">
       </div>
-
-      <button type="button" name="button">Войти</button>
+      <div class="form-group">
+        <input type="password" name="" value="" placeholder="Ещё раз Пароль">
+      </div>
+      <button type="button" name="button"><a href="#">Создать аккаунт</a></button>
       <div class="forgot">
         <div class="checkpassword">
           <input type="checkbox" name="" value="" id="remember">
-          <label for="remember">Запомнить меня</label>
-        </div>
-        <div class="rempassword">
-          <a href="#">Забыли пароль?</a>
+          <label for="remember">Я внимательно прочитал Правила сайта и полностью согласен с ними.</label>
+          <input type="checkbox" name="" value="" id="remember">
+          <label for="remember">Я прочитал Политику конфиденциальности, согласен с ней и даю согласие на обработку своих персональных данных.</label>
         </div>
       </div>
-
-      <div class="registration">
-        <p>Впервые на сайте?
-        <span><a href="registration.html">Заведите аккаунт</a></span></p>
-      </div>
-
-
-
     </form>
     </div>
       <h1></h1>
