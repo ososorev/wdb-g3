@@ -39,7 +39,29 @@
 
             let registrationForm = document.createElement("form");
             registrationForm.classList.add("registrationForm");
-            
+            registrationForm.setAttribute("action", "");
+            registrationForm.setAttribute("method", "post");
+            document.body.append(registrationForm);
+
+                let titleFormRegistration = document.createElement("div");
+                titleFormRegistration.classList.add("titleFormRegistration");
+                titleFormRegistration.append(document.createTextNode("Регистрация"));
+                registrationForm.appendChild (titleFormRegistration);
+
+                let labelEmailField = document.createElement("div");
+                labelEmailField.classList.add("labelEmailField");
+                labelEmailField.append(document.createTextNode("введите e-mail:"));
+                registrationForm.appendChild (labelEmailField);
+
+                let emailField = document.createElement("input");
+                emailField.classList.add("emailField");
+                emailField.setAttribute("type", "email");
+                registrationForm.appendChild(emailField);
+
+                let submitBtn = document.createElement('input');
+                submitBtn.classList.add("submitBtn");
+                submitBtn.setAttribute("type", "submit");
+                registrationForm.appendChild(submitBtn);
 
 
 
