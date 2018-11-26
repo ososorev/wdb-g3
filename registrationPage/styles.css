@@ -1,25 +1,79 @@
-#header {
+body {
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F4F4F5;
+    box-shadow: 0px 3px 4px rgba(94, 99, 102, 0.15);
+}
 
+#header {
+    position: absolute;
+    height: 30px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background: #100E2D;
 }
 
 #subscribe {
+    position: absolute;
+    width: 73px;
+    height: 17px;
+    left: 862px;
+    top: 6px;
 
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+
+    color: #FFFFFF;
 }
 
 #twitterIcon {
-
+    position: absolute;
+    width: 15.75px;
+    height: 14px;
+    left: 952px;
+    top: 8px;
+    
+    background: transparent;
+    opacity: 0.8;
 }
 
 #youtubeIcon {
-
+    position: absolute;
+    width: 12.44px;
+    height: 14px;
+    left: 994px;
+    top: 8px;
+    
+    background: transparent;
 }
 
 #facebookIcon {
-
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    left: 1033px;
+    top: 8px;
+    
+    background: transparent;
 }
 
 #navBar {
-
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background: #100E2D;
 }
 
 #logo {
@@ -34,5 +88,11 @@
 
 }
 #submitBtn {
+
+}
+#privacyPolicy {
+
+}
+#enterLink {
 
 }

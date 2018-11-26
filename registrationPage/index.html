@@ -1,5 +1,10 @@
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
 
     </head>
     <body>
@@ -63,8 +68,27 @@
                 submitBtn.setAttribute("type", "submit");
                 registrationForm.appendChild(submitBtn);
 
+                let privacyPolicy = document.createElement ("div");
+                privacyPolicy.classList.add("privacyPolicy");
+                privacyPolicy.append(document.createTextNode("Регистрируясь, вы подтверждаете, что принимаете Условия пользования и Политику конфиденциальности"));
+                registrationForm.appendChild(privacyPolicy);
 
+                let enterLink = document.createElement ("div");
+                enterLink.classList.add("enterLink");
+                registrationForm.appendChild(enterLink);
 
+                    let textEnterLink = document.createElement ("div");
+                    textEnterLink.classList.add("textEnterLink");
+                    enterLink.append(document.createTextNode("Уже имеете аккаунт?"));
+                    enterLink.appendChild(textEnterLink);
+
+                    let linkToEnter = document.createElement ("a");
+                    linkToEnter.classList.add("linkToEnter");
+                    let href = document.createAttribute('href');
+                    linkToEnter.setAttribute(href, 'тут должна быть ссылка на страницу логинации');
+                    linkToEnter.innerText ="Выполните вход";
+                    enterLink.appendChild(linkToEnter);
+                    
         </script>                
     </body>
 </html>
