@@ -1,0 +1,335 @@
+body{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0px;
+	display: flex; 
+	flex-direction: column;
+	bottom: 0px;
+	height: 100vh;
+	background: #F4F4F5;
+}
+
+.background_color {
+    background-color: #E5E5E5;
+    background-size: 100%;
+}
+
+.alert{
+    font-style: italic;
+	font-size: 10px;
+	color: #C43269;
+	text-align: left;
+	margin-bottom: 20px;
+	margin: 0px;
+}
+         
+.header{
+    height: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:flex-end;
+	align-content: center;
+	padding-right: 120px;
+    background: #100E2D;
+}
+
+.navBar{
+    position: relative;
+    width: 100%;
+    height: 60px;              
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(94, 99, 102, 0.15);
+}
+
+.backgroundForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    position: absolute;   
+    width: 558px;
+    height: 602px;
+    top: 120px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    background-color:  #FFFFFF;
+}
+          
+.subscribeText{
+    position: absolute;
+    width: 73px;
+    height: 17px;
+    left: 862px;
+    top: 6px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+    color:  #FFFFFF
+}
+            
+.twitter{
+    background-image: url(./img/twitter.svg);                 
+    position: absolute;
+    width: 15.75px;
+    height: 14px;
+    left: 952px;
+    top: 8px;
+    opacity: 0.8;
+}
+            
+.youtube{
+    background-image: url(./img/youtube.svg);                 
+    position: absolute;
+    width: 12.44px;
+    height: 14px;
+    left: 994px;
+    top: 8px;
+}            
+            
+.facebook{
+    background-image: url(./img/facebook.svg);                 
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    left: 1030px;
+    top: 8px;
+}
+            
+.logo{
+    position: absolute;
+    background-image: url(./img/logo.svg);               
+    width: 145px;
+    height: 34px;
+    left: 128px;
+    top: 13px;
+}
+
+.signUpText{
+    position: absolute;
+    top: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #4C4C4C;
+}
+
+.withUpText{
+    position: absolute;
+    top: 104px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8C8C8C;
+}
+
+.contentLoginForm{
+    width: 558px;
+    height:380px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+.loginForm{
+    display: flex;
+	flex-direction: column; 
+	background: #F4F4F5;
+	text-align: center;
+	background: #F4F4F5;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.loginText{
+    font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	font-size: 24px;
+	color: #4C4C4C;
+ 	margin-bottom: 20px;
+}
+
+.emailField{
+    position: absolute;
+    width: 263px;
+    height: 26px;
+    top: 316px;
+    border: 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #A4A6A9;        
+}
+
+.underlineEmail{
+    position: absolute;
+    width: 263px;
+    height: 0px;
+    top: 342px;
+    border: 1px solid #A4A6A9;
+}
+
+.passField{
+    position: absolute;
+    width: 263px;
+    height: 26px;
+    top: 356px;
+    border: 0px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #A4A6A9;        
+}
+
+.underlinePass{
+    position: absolute;
+    width: 263px;
+    height: 0px;
+    top: 382px;
+    border: 1px solid #A4A6A9;
+}
+
+#email{
+	border: 0px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #A4A6A9;
+	font-size: 16px;
+	color: #A4A6A9;
+	padding: 5px;
+}
+
+#pass{
+	border: 0px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #A4A6A9;
+	font-size: 16px;
+	color: #A4A6A9;
+	padding: 5px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+}
+
+#btnSbmt{
+	background: #7B3CA5;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25) !important;
+	border-radius: 40px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 16px;
+	color:#F2F2F2;
+	width: 262px;
+	height: 42px;
+	border: 0px;
+}
+
+.rememderMe{
+	display: flex;
+	flex-direction: row;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.recovery{
+	text-align: right;
+	width: 50%;
+	height: 30px;
+	color: #7B3CA5;
+}
+
+#chb{
+	padding-top: 3px;
+}
+
+.registrationBtn{
+    position: absolute;
+    width: 262px;
+    height: 42px;
+    top: 369px;
+    background: #7B3CA5;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 40px; 
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 16px;
+    color: #F2F2F2; 
+    text-align: center;
+}
+
+.termsOfUse{
+    position: absolute;
+    width: 260px;
+    height: 50px;
+    top: 437px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+    color: #4C4C4C;
+}
+
+.linkTermsOfUse{
+    color: #7B3CA5;
+}
+
+.toLoginPage{
+    position: absolute;
+    width: 260px;
+    height: 50px;    
+    top: 556px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+    color: #4C4C4C;    
+}
+
+.registration{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 14px;
+	color: #1F2836;
+	padding-top: 30px;
+}

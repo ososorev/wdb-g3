@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8"/>
+		
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+        <title>Logination</title>
+	</head>
+	<body>
+        <header class = "header">
+            <div class="subscribe">
+                <div class = "subscribeText">Подпишись!</div>
+                <div class = "twitter"></div>
+                <div class = "youtube"></div>
+                <div class = "facebook"></div>
+            </div>
+        </header>
+        <div class = "navBar">
+                <div class = "logo"></div>      
+        </div>
+        <div class = "loginForm">
+            <div class = "contentLoginForm">
+        <div class = "loginText">Вход</div>
+            <form name='myform' class="needs-validation"  novalidate>
+                <div id="emailField">
+                    <input id="email" type="email" name="mail"  class="form-control" placeholder="e-mail" style="width: 263px;" required/>
+                        <div class="alert">
+                            Введите Email.
+                        </div>
+                </div>
+                <div id="passField">
+                    <input id="pass" type="password" name="pass" class="form-control" placeholder="password" style="width: 263px;" required/>
+                        <div class="alert">
+                            Введите пароль.
+                        </div>
+                </div>
+            <div style="margin-bottom: 14px;"><input id="btnSbmt" type="submit" name="btn" style="width: 263px;" value="Войти" required/></div>
+            <div class="rememderMe">
+            <div class = "checkbox"><input id="chb"  type="checkbox" name="saveme"/></div>
+                            <div><label for="chb">Запомнить меня</label></div>
+                            <div class="recovery"><a href="#">Забыли пароль?</a></div>
+                        </div>
+                    </form>
+            <div class="registration">Еще не с нами? <a href="../registrationPage/index.html">Зарегистрируйтесь</a></div>
+        </div>
+        </div>
+    </body>
+</html>
