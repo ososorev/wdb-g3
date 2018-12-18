@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function(){
+
 createHeader(); 
 
 createSubscriptionArea();
@@ -20,7 +22,7 @@ createRegistrationBtn();
 createTermsOfUse();
 createTextTermsOfUse();
 createLinkToLoginPage();
-
+})
 
     function createHeader() {
         let header = document.createElement("div"); 
